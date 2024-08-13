@@ -1,0 +1,32 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-360videoplatform-dev-33f5c-authRole",
+      "UnauthRoleArn": "arn:aws:iam::730335659882:role/amplify-360videoplatform-dev-33f5c-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::730335659882:role/amplify-360videoplatform-dev-33f5c-authRole",
+      "Region": "ap-northeast-1",
+      "DeploymentBucketName": "amplify-360videoplatform-dev-33f5c-deployment",
+      "UnauthRoleName": "amplify-360videoplatform-dev-33f5c-unauthRole",
+      "StackName": "amplify-360videoplatform-dev-33f5c",
+      "StackId": "arn:aws:cloudformation:ap-northeast-1:730335659882:stack/amplify-360videoplatform-dev-33f5c/8e3255c0-58d0-11ef-97bf-0a8a4e0ece91",
+      "AmplifyAppId": "d1mp501lun5kw8"
+    },
+    "categories": {
+      "auth": {
+        "360videoplatformd4f3d92d": {}
+      },
+      "api": {
+        "360videoplatform": {}
+      },
+      "function": {
+        "S3Trigger932c9093": {
+          "deploymentBucketName": "amplify-360videoplatform-dev-33f5c-deployment",
+          "s3Key": "amplify-builds/S3Trigger932c9093-62452f5a3050544c6442-build.zip"
+        }
+      },
+      "storage": {
+        "360VideoStorage": {}
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+type Video @model
+  @auth(
+    rules: [
+      { allow: owner },  # Allows the owner to create, update, delete, and read their own videos
+      { allow: private, operations: [create, update, delete, read] } # Allow authenticated users to create, update, delete, and read videos
+    ]
+  ) {
+  id: ID!
+  title: String!
+  description: String
+  tags: [String]
+  category: String
+  videoUrl: String!
+  thumbnailUrl: String
+  isForKids: Boolean
+  isRestricted: Boolean
+  playlist: String
+  scheduleTime: AWSDateTime
+  timezone: String
+  createdAt: AWSDateTime
+  updatedAt: AWSDateTime
+  owner: String
+}

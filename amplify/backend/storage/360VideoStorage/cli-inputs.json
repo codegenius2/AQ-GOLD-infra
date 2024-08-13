@@ -1,0 +1,15 @@
+{
+  "resourceName": "360VideoStorage",
+  "policyUUID": "0ddc0d14",
+  "bucketName": "360-video-storage",
+  "storageAccess": "authAndGuest",
+  "guestAccess": [
+    "READ"
+  ],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ"
+  ],
+  "triggerFunction": "S3Trigger932c9093",
+  "groupAccess": {}
+}
